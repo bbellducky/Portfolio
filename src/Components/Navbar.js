@@ -20,7 +20,7 @@ const Navbar = () => {
         },
         {
             id: 4,
-            link: 'Skill'
+            link: 'skill'
         },
     ]
     return (
