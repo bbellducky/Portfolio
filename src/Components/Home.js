@@ -6,7 +6,7 @@ const Home = () => {
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full px-8'>
                     <h3 className='text-4xl sm:text-7xl font-bold'>I'm a  Junior Software Developer </h3>
-                    <p className='py-4 mx-w-md text-gray-200'>Discover and let\'s keep in touch</p>
+                    <p className='py-4 mx-w-md text-gray-200'>Discover and let's keep in touch</p>
 
                     <div>
                     <button className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500'>
