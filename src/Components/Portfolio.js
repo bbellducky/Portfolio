@@ -1,41 +1,27 @@
-import React from 'react'
-import Jammming from '../assets/jammming.png'
-const Portfolio = () => {
-    const portfolios = [
-        {
-            id: 1,
-            src: Jammming,
-            demo_href: 'http://thdxbe.surge.sh/',
-            code_href: 'https://github.com/bbellducky/Jammming',
-        },
-    ]
+import Landing from '../assets/Landing.png'
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
+const Home = () => {
     return (
-        <div name="portfolio" className='bg-gradient-to-b from-black to-gray-600 w-full text-white md:h-screen'>
-            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-                <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-                </div>
-                {
-                    portfolios.map(({id,src,demo_href,code_href}) => (
-                        
-                <div key={id} className='grid sm:grid-cols-2 md: grid-cols-2 gap-8 px-12 sm:px-0'>
-                <div className='rounded-lg'>
-                    <img src={src} alt="Project" className='rounded-lg'/>
-                    <div className='flex items-center justify-center'>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={demo_href}>Demo</a></button>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={code_href}>Code</a></button>
+        <div name="home" className='flex h-screen w-full bg-gradient-to-b from-amber-50 to-white text-black'>
+            <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
+                <div className='flex flex-col justify-center h-full px-8'>
+                    <h3 className='text-4xl sm:text-7xl font-bold'>I'm a  Junior Software Developer </h3>
+                    <p className='py-4 mx-w-md text-black'>Discover and let's keep in touch</p>
+
+                    <div>
+                    <button className='text-black w-fit px-6 py-3 my-2 flex items-center rounded-xl border-2 border-black'>
+                        Portfolio 
+                        <span className='hover:rotate-90 duration-300'>
+                        <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+                        </span> 
+                    </button>
                     </div>
                 </div>
-
-                
-            </div>
-                    ))
-                }
-
+                <img src={Landing} alt="3dmodel" className='mx-auto w-1/2 md:w-3/4 px-4' />
 
             </div>
         </div>
     )
 }
 
-export default Portfolio
+export default Home
