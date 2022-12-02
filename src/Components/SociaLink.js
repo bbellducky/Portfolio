@@ -7,9 +7,7 @@ const SociaLink = () => {
         {
             id: 1,
             child: (
-                <>
-                LinkedIn <FaLinkedin size={30} />
-            </>
+                <FaLinkedin size={30} />
             ),
             href: 'https://www.linkedin.com/in/thedxbe/',
             style: 'rounded-tr-md'
@@ -17,9 +15,7 @@ const SociaLink = () => {
         {
             id: 2,
             child: (
-                <>
-                GitHub <FaGithub size={30} />
-                </>
+                <FaGithub size={30} />
             ),
             href: 'https://github.com/bbellducky',
             style: 'rounded-tr-md'
@@ -27,9 +23,7 @@ const SociaLink = () => {
         {
             id: 3,
             child: (
-                <>
-                Mail <HiOutlineMail size={30} />
-                </>
+                <HiOutlineMail size={30} />
             ),
             href: 'mailto:padarat.madlee@gmail.com',
             style: 'rounded-tr-md'
@@ -37,9 +31,7 @@ const SociaLink = () => {
         {
             id: 4,
             child: (
-                <>
-                Resume <BsFillPersonLinesFill size={30} />
-                </>
+                <BsFillPersonLinesFill size={30} />
             ),
             href: '',
             style: 'rounded-tr-md',
@@ -47,13 +39,13 @@ const SociaLink = () => {
         },
     ]
     return (
-        <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
+        <div className='hidden lg:flex flex-col top-[35%] right-0 fixed'>
             <ul>
             {links.map(({id,child,href,style,download})=>(
                 <li key={id}
-                 className={'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500'+''+ style}>
-                 <a href={href} className='flex justify-between items-center w-full text-white'
-                download={download} target='_blank' rel="noreffer" > {child} </a></li>
+                 className={'flex justify-between items-center w-40 h-14 px-4 mr-[-80px] duration-300'+''+ style}>
+                 <a href={href} className='flex justify-between items-center w-full text-gray-400'
+                download={download} target='_blank' rel="noreffer">{child}</a></li>
             ))}
                 
             </ul>
