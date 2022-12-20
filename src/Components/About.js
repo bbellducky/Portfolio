@@ -2,7 +2,7 @@ import React from 'react'
 import aboutImg from '../assets/aboutImg.png'
 const About = () => {
     return (
-        <div name="about" className='w-full h-screen bg-gradient-to-b from-white to-amber-50 text-black'>
+        <div name="about" className='w-full h-screen bg-gradient-to-b from-amber-50 to-white0 text-black'>
         
         <div className='max-w-screen-lg p-4 mx-auto flex-col justify-center w-full h-full'>
         <img src={aboutImg} alt="3dmodel" className='mx-auto w-3/4 md:w-3/4 px-4' />
