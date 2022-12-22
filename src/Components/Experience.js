@@ -4,7 +4,7 @@ import css from '../assets/css.png'
 import js from '../assets/js.png'
 import node from '../assets/node.png'
 import react from '../assets/react.png'
-const Skill = () => {
+const Experience = () => {
     const techs = [
         {
             id:1,
@@ -56,4 +56,4 @@ const Skill = () => {
     )
 }
 
-export default Skill
+export default Experience
