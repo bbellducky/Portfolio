@@ -28,15 +28,7 @@ const SociaLink = () => {
             href: 'mailto:padarat.madlee@gmail.com',
             style: 'rounded-tr-md'
         },
-        {
-            id: 4,
-            child: (
-                <BsFillPersonLinesFill size={30} />
-            ),
-            href: './assets/cv_Padarat_Madlee.pdf' download,
-            style: 'rounded-tr-md',
-            download: true,
-        },
+       
     ]
     return (
         <div className='hidden lg:flex flex-col top-[35%] right-0 fixed'>
