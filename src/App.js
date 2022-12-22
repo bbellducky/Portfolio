@@ -9,7 +9,6 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Home />
       <About />
       <SociaLink />
       <Portfolio />
