@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar';
 import SociaLink from './Components/SociaLink';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
-import Experience from './Components/Experience';
+import Skill from './Components/Skill';
 function App() {
   return (
     <div>
@@ -13,7 +13,7 @@ function App() {
       <About />
       <SociaLink />
       <Portfolio />
-      <Experience />
+      <Skill />
     </div>
   );
 }
