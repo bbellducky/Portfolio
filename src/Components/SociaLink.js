@@ -33,7 +33,7 @@ const SociaLink = () => {
             child: (
                 <BsFillPersonLinesFill size={30} />
             ),
-            href: '',
+            href: './assets/cv_Padarat_Madlee.pdf' download,
             style: 'rounded-tr-md',
             download: true,
         },
