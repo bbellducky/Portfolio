@@ -1,5 +1,6 @@
 import React from 'react'
 import Jammming from '../assets/jammming.png'
+import UpnDown from '../assets/upndown.png'
 const Portfolio = () => {
     const portfolios = [
         {
@@ -8,6 +9,13 @@ const Portfolio = () => {
             demo_href: 'http://thdxbe.surge.sh/',
             code_href: 'https://github.com/bbellducky/Jammming',
         },
+        {
+            id: 2,
+            src: Up N Down,
+            demo_href: 'https://upndown-frontend.vercel.app/',
+            code_href: 'https://https://github.com/bbellducky/Portfolio',
+        },
+        
     ]
     return (
         <div name="portfolio" className='bg-gradient-to-b from-white to-amber-50 w-full text-black md:h-screen'>
