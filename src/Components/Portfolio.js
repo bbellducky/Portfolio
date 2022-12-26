@@ -13,7 +13,7 @@ const Portfolio = () => {
             id: 2,
             src: UpnDown,
             demo_href: 'https://upndown-frontend.vercel.app/',
-            code_href: 'https://https://github.com/bbellducky/Portfolio',
+            code_href: 'https://github.com/Maxnetz/upndown-frontend',
         },
         
     ]
