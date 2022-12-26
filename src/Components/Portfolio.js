@@ -11,7 +11,7 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: Up N Down,
+            src: UpnDown,
             demo_href: 'https://upndown-frontend.vercel.app/',
             code_href: 'https://https://github.com/bbellducky/Portfolio',
         },
